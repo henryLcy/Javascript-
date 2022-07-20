@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Calculadora Estilizada</title>
+    <link rel="stylesheet" href="stylesheet/style.css">
+</head>
+<body>
+    <header>
+        <h1>Calculadora Estilizada</h1>
+    </header>
+
+    <div id="form">
+        <input type="number" id="n1" placeholder="Digite o primeiro Numero"> <br><br>
+        <select id="selector">
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="x">x</option>
+            <option value="/">/</option>
+        </select> <br><br>
+        <input type="number" id="n2" placeholder="Digite o segundo Numero"><br><br>
+        <button onclick="calcular()">Calcular</button> 
+    </div>
+    <div id="caixa">
+        <h3 id="resultado"></h3>
+    </div>
+
+    <p id="me">Feito por: lcy</p>
+    <script src="./scripts/script.js"></script>
+</body>
+</html>
